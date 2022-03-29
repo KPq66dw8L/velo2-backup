@@ -1,0 +1,26 @@
+
+Resize les img a la taille a laquelle elles apparaissent sur le site:
+    https://www.npmjs.com/package/sharp
+    https://www.imagemagick.org/script/index.php
+-> https://web.dev/serve-responsive-images/
+
+enlever pourcentages
+
+(it's common to serve 3-5 different sizes of an image)
+
+
+Compression: 
+https://github.com/imagemin/imagemin-cli
+
+<img srcset="elva-fairy-480w.jpg 480w,
+             elva-fairy-800w.jpg 800w"
+     sizes="(max-width: 600px) 480px,
+            800px"
+     src="elva-fairy-800w.jpg"
+     alt="Elva dressed as a fairy">
+
+Gold:
+https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/
+
+---------------------------------------------------------------------------------
+ numero de tel dans le hero

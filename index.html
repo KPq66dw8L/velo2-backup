@@ -19,9 +19,11 @@
   <link rel="stylesheet" href="./css/reviews.css?version=48">
   <link rel="stylesheet" href="./css/style3.css">
 
+  <script src="lazy-load.js" defer></script>
 </head>
 
 <body>
+  
   <!-- Header -->
   <section id="header">
     <div class="header container">
@@ -82,7 +84,7 @@
 <br>
 
 <div class="video">
-  <iframe defer width="560" height="315" src="https://www.youtube.com/embed/0LjqJ8xdyAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe id="lazy-load" defer width="560" height="315" data-src="https://www.youtube.com/embed/0LjqJ8xdyAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
   <!-- About Section -->
@@ -232,7 +234,7 @@
   <!-- Map-->
 
   <section class="map" id="map">
-    <iframe defer src="https://www.google.com/maps/d/u/2/embed?mid=1_WcL0P08HzvrmBGIsLPmvElx2hRAMadu&ehbc=2E312F&z=6" width="640" height="480"></iframe>
+    <iframe id="map-lazy" defer data-src="https://www.google.com/maps/d/u/2/embed?mid=1_WcL0P08HzvrmBGIsLPmvElx2hRAMadu&ehbc=2E312F&z=6" width="640" height="480"></iframe>
   </section>
 
   <!-- Footer -->
@@ -281,6 +283,7 @@
 
   <!-- End Footer -->
   <script src="./app.js"></script>
+
   
 </body>
 
